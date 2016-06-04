@@ -25,8 +25,8 @@ You can also use an active class name instead of inline-styles.
 <li><Link to="/repos" activeClassName="active">Repos</Link></li>
 ```
 
-We don't have a stylesheet on the page yet though. Lets add one--extra
-points if you can add a `link` tag from memory.
+We don't have a stylesheet on the page yet though. Lets add one-extra
+point if you can add a `link` tag from memory.
 
 ```html
 <link rel="stylesheet" href="index.css" />
@@ -50,7 +50,7 @@ primary navigation links need to know. It's useful to wrap those so you
 don't have to remember what your `activeClassName` or `activeStyle` is
 everywhere.
 
-We will use an spread attribute here, the three dots. It clones our props 
+We will use a spread operator here, the three dots. It clones our props 
 and in this use case it clones `activeClassName` to our desired component for
 us to benefit from.
 
