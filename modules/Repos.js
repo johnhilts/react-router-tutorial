@@ -10,11 +10,11 @@ export default React.createClass({
           <li><NavLink to='/repos/jhilts@lampsplus.com/react-for-beginners'>React for Beginners</NavLink></li>
         </ul>
 
-        <div>
-          {this.props.children}
-        </div>
+            <div>
+              {this.props.children}
+            </div>
 
-      </div>
-    )
-  }
-})
+          </div>
+        )
+      }
+    })
